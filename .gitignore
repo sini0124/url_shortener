@@ -1,7 +1,4 @@
 
-# Created by https://www.gitignore.io/api/macos,flask,python
-# Edit at https://www.gitignore.io/?templates=macos,flask,python
-
 ### Flask ###
 instance/*
 !instance/.gitignore
@@ -9,7 +6,7 @@ instance/*
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 
@@ -64,37 +61,11 @@ coverage.xml
 *.mo
 *.pot
 
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
 # pyenv
 .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
 
 # Mr Developer
 .mr.developer.cfg
@@ -140,55 +111,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### Python ###
-# Byte-compiled / optimized / DLL files
+# flask private
+.env
 
-# C extensions
-
-# Distribution / packaging
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-
-# Installer logs
-
-# Unit test / coverage reports
-
-# Translations
-
-# Scrapy stuff:
-
-# Sphinx documentation
-
-# PyBuilder
-
-# pyenv
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-
-# celery beat schedule file
-
-# SageMath parsed files
-
-# Spyder project settings
-
-# Rope project settings
-
-# Mr Developer
-
-# mkdocs documentation
-
-# mypy
-
-# Pyre type checker
-
-# End of https://www.gitignore.io/api/macos,flask,python
-
-# flask database
-*.db
-models.py
+# environments
+venv
+.idea
