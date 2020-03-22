@@ -2,9 +2,10 @@ from flask import (
     request, jsonify, redirect, Blueprint
 )
 from werkzeug.exceptions import HTTPException
-from typing import List
 from hashlib import blake2b
-from models import SQLHelper
+from typing import List
+
+from app.models import SQLHelper
 
 
 link_bp = Blueprint(
