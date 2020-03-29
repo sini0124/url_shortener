@@ -1,9 +1,10 @@
-from flask import (
-    request, jsonify, redirect, Blueprint
-)
 from werkzeug.exceptions import HTTPException
 from hashlib import blake2b
 from typing import List
+
+from flask import (
+    request, jsonify, redirect, Blueprint
+)
 
 from app.models import SQLHelper
 
