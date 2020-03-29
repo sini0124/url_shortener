@@ -117,4 +117,3 @@ Temporary Items
 # environments
 venv
 .idea
-git rm -r --cached .

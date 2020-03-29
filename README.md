@@ -25,6 +25,7 @@ url_shortener is a url shortener to reduce a long link.
     .
     ├── app
     │   ├── __init__.py
+    │   ├── models.py
     │   ├── link
     │   │   ├── __init__.py
     │   │   ├── views.py

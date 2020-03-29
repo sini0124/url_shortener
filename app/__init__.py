@@ -6,7 +6,7 @@ def create_app():
     from app.link.views import link_bp
     app.register_blueprint(link_bp, url_prefix='/link')
 
-    from models import SQLHelper
+    from app.models import SQLHelper
     db_manager = SQLHelper()
 
     @app.route('/')
