@@ -1,6 +1,7 @@
+import os
+
 import pymysql
 from DBUtils.PooledDB import PooledDB
-import os
 from dotenv import load_dotenv
 
 
