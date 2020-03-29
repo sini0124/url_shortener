@@ -36,3 +36,4 @@ url_shortener is a url shortener to reduce a long link.
     └── models.py
 
 app 폴더는 웹 페이지의 소스코드입니다. 
+git 
